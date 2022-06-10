@@ -1,0 +1,7 @@
+number = int (input("enter the num"))
+if (number%2==0):
+    print("this is even num")
+elif(number%2==1):
+    print("this is odd num")
+else:
+    print("enter num is wrong")

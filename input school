@@ -1,0 +1,15 @@
+# elif statement
+#0       nofine
+#1-5     0.5 
+#5-10    1 
+#10-15   5 
+
+days = int(input("enter the days" ))
+if (days==0):
+    print("good no fine")
+elif(days>=1 and days<=5):
+    print("your fine is", days*0.5)
+elif(days>=5 and days<=10):
+    print("your fine is", days*1)
+elif(days>=10 and days<=15):
+    print("your fine is", days*5)
