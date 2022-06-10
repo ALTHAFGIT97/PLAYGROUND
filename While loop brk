@@ -1,0 +1,6 @@
+i=1
+while i <=20:
+    if i==5:
+        break
+    print(g)
+    i += 1
