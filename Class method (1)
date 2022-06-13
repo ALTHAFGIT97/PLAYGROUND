@@ -1,0 +1,28 @@
+#class method
+class mine():
+    name="jknsjsnsj"
+    age=66
+    
+    def var(self,):
+       print("Name : ",mine.name)
+       print("Age : ",mine.age)
+       
+ 
+o=mine()
+o.var()
+
+#class method add gender
+class mine():
+    name="jknsjsnsj"
+    age=66
+    
+    def var(self,gender):
+       print("Name : ",mine.name)
+       print("Age : ",mine.age)
+       print("Gender : ", gender)
+       
+ 
+o=mine()
+o.var("male")
+
+
