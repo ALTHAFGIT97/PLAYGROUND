@@ -1,0 +1,51 @@
+#dict
+user = {
+    "name" : "althaf",
+    "age" : 24,
+}
+print(user)
+print(type(user))
+print(user["age"])
+print(user.keys())
+print(user.values())
+print(user.items())
+
+for x in user:
+    print(x," ",user[x])
+
+for x in user.values():
+    print(x)
+
+for x in user.keys():
+    print(x)
+
+for x in user.items():
+    print(x)
+
+if "age" in user:
+    print("yes")
+    
+user.update({"gender":"male"})
+print(user)
+
+user["age"]=35
+print(user)
+
+user.pop("age")
+print(user)
+
+user.clear()
+print(user)
+
+user = {
+"user1": {
+    "name": "allalal",
+    "gen": "male",
+   },
+"user2": {
+    "name": "allalal",
+    "gen": "male",
+   }
+}
+
+print(user)
