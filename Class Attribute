@@ -1,0 +1,21 @@
+#getattr
+class mydata():
+    name = "boys"
+    age = 66
+    
+print(getattr(mydata, "name"))
+
+#dot notation
+print(mydata.name)
+
+#setattr
+setattr(mydata, "name", "mens")
+print(mydata.name)
+
+setattr(mydata, "gender", "male")
+print(mydata.gender)
+
+print(mydata.__dict__)
+
+delattr(mydata,"age")
+print(mydata.__dict__)
