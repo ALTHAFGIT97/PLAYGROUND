@@ -1,0 +1,12 @@
+#init method python
+
+class user:
+    def __init__(self,name):
+        print("call me call me")
+        self.name = name
+        
+    def naming(self):
+        print("Name : ", self.name)
+
+o1 = user("hhhhhhh")
+o1.naming()
