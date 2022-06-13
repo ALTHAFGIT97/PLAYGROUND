@@ -1,0 +1,11 @@
+#class method
+class mine():
+    name="jknsjsnsj"
+    age=66
+    
+    def var():
+       print("Name : ",mine.name)
+       print("Age : ",mine.age)
+ 
+mine.var()
+print(mine.__dict__)
