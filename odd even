@@ -4,4 +4,4 @@ if (number%2==0):
 elif(number%2==1):
     print("this is odd num")
 else:
-    print("enter num is wrong")
+    print("enterd num is wrong")
